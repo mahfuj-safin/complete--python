@@ -3,7 +3,7 @@
 
 
 marks = []
-n = int(input("how many students?"))
+n = int(input("how many subject?"))
 for b in range(n):
     m = float(input("Enter marks:"))
     marks.append(m)
@@ -58,10 +58,16 @@ total = sum(cart)
 print("cart item:", cart)
 print("total bill:", total)
 
-
+# topper finder
 student = ['safin', 'eva', 'maisa']
 marks = [85,81,83]
 top_mark = max(marks)
 index = marks.index(top_mark)
 print("topper:", student[index])
 print("marks:", top_mark)
+
+#Duplicate Remover
+nums = [1, 2, 2, 3, 4, 4, 5]
+unique = list(set(nums))
+print("Unique list:", unique)
+
