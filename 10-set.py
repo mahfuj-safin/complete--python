@@ -31,3 +31,24 @@ mySet2 = {"safin", "tutul", "shakil", "najim"}
 set3 = {1,2,3}
 mySet2.update(set3)
 print(mySet2)
+
+
+#Remove Set Items
+Myset = {1,2,3,4,5,6}
+Myset.remove(5)
+print(Myset)
+
+#discard() method: # value na thakleo error dibe na
+MySet = {1,2,3,4,5,6}
+MySet.discard(12)
+print(MySet)
+
+#pop() method:
+MySet1 = {"safin", "mehek", "toufik"}
+MySet1.pop()
+print(MySet1)
+
+#clear() method
+MySet2 = {"safin", "mehek", "toufik"}
+MySet2.clear()
+print(MySet2)
