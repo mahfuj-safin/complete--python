@@ -52,3 +52,9 @@ print(MySet1)
 MySet2 = {"safin", "mehek", "toufik"}
 MySet2.clear()
 print(MySet2)
+
+
+#Loop Sets
+MySet3 = {"safin", "mehek", "toufik"}
+for i in MySet3:
+    print(i)
