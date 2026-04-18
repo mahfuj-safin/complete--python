@@ -58,3 +58,16 @@ print(MySet2)
 MySet3 = {"safin", "mehek", "toufik"}
 for i in MySet3:
     print(i)
+
+#Join Sets
+#union() method
+MySet4 = {"safin", "mehek", "toufik"}
+MySet5 = {1,2,3,4,5,6}
+set = MySet4.union(MySet5)
+print(set)
+
+#update method
+MySet5 = {"safin", "mehek", "toufik"}
+MySet6 = {1,2,3,}
+MySet6.update(MySet5)
+print(MySet6)
