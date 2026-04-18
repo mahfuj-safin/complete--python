@@ -19,3 +19,15 @@ for i in mySet:
 
 print(10 in mySet)
 
+
+#Add Set Items
+
+mySet1 = {"safin", "tutul", "shakil", "najim"}
+mySet1.add("sohan")
+print(mySet1)
+
+#set update method
+mySet2 = {"safin", "tutul", "shakil", "najim"}
+set3 = {1,2,3}
+mySet2.update(set3)
+print(mySet2)
